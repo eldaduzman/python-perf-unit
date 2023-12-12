@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-perf-unit"
-version = "0.0.2-alpha"
+version = "0.0.3-alpha"
 description = "Decorators and utilities for python performance unit testing"
 authors = ["Eldad Uzman <eldadu1985@gmail.com>"]
 license = "MIT"
