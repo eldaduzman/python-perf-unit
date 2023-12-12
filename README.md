@@ -1,7 +1,7 @@
 # python-perf-unit
 
 
-[![Version](https://img.shields.io/pypi/format/python-perf-unit)](https://pypi.python.org/pypi/python-perf-unit)
+[![Version](https://img.shields.io/pypi/v/python-perf-unit)](https://pypi.python.org/pypi/python-perf-unit)
 <!-- ![](https://raw.githubusercontent.com/eldaduzman/robotframework-gevent/main/docs/badges/coverage-badge.svg) -->
 <!-- ![](https://raw.githubusercontent.com/eldaduzman/robotframework-gevent/main/docs/badges/pylint.svg) -->
 <!-- ![](https://raw.githubusercontent.com/eldaduzman/robotframework-gevent/main/docs/badges/mutscore.svg) -->
