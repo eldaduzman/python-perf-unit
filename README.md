@@ -2,10 +2,8 @@
 
 
 [![Version](https://img.shields.io/pypi/v/python-perf-unit)](https://pypi.python.org/pypi/python-perf-unit)
-<!-- ![](https://raw.githubusercontent.com/eldaduzman/robotframework-gevent/main/docs/badges/coverage-badge.svg) -->
-<!-- ![](https://raw.githubusercontent.com/eldaduzman/robotframework-gevent/main/docs/badges/pylint.svg) -->
-<!-- ![](https://raw.githubusercontent.com/eldaduzman/robotframework-gevent/main/docs/badges/mutscore.svg) -->
-
+![](https://raw.githubusercontent.com/eldaduzman/python-perf-unit/main/docs/badges/coverage-badge.svg)
+![](https://raw.githubusercontent.com/eldaduzman/python-perf-unit/main/docs/badges/pylint.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 `python-perf-unit` is a Python package designed to enhance unit testing with performance metrics. By integrating with Python's unittest framework, it enables the execution of test methods with performance analysis.
