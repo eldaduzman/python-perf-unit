@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "python-perf-unit"
+version = "0.0.1a"
+description = "Decorators and utilities for python performance unit testing"
+authors = ["Eldad Uzman <eldadu1985@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "perf_unit", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.3"
+mypy = "^1.7.1"
+black = "^23.12.0"
+tox = "^4.11.4"
+coverage = "^7.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
