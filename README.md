@@ -29,7 +29,7 @@ Decorate your unittest class with `@perf_unit_test_class` to turn standard unit 
 from perf_unit import perf_unit_test_class
 import unittest
 
-@perf_unit_test_class()
+@perf_unit_test_class
 class MyTestCase(unittest.TestCase):
 
     def test_example1(self):

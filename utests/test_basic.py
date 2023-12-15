@@ -21,7 +21,9 @@ class TestBasic(TestCase):
         self.assertTrue(result.wasSuccessful())
 
     def test_should_fail_due_too_high_latency(self):
-        @perf_unit_test_class(how_many_threads=50, upper_median_threashold_in_milliseconds=1)
+        @perf_unit_test_class(
+            how_many_threads=50, upper_median_threashold_in_milliseconds=1
+        )
         class SomeTestClass(TestCase):
             def test_method(false_self):
                 time.sleep(random.randint(200, 600) / 1000)
@@ -49,6 +51,19 @@ class TestBasic(TestCase):
         @perf_unit_test_class(how_many_threads=50)
         class SomeTestClass(TestCase):
             pass
+
+    def test_decorators_with_no_inputs(self):
+        @perf_unit_test_class
+        class SomeTestClass(TestCase):
+            def test_method(false_self):
+                pass
+
+        suite = TestLoader().loadTestsFromTestCase(SomeTestClass)
+
+        runner = TextTestRunner()
+        result = runner.run(suite)
+        result.printErrors()
+        self.assertTrue(result.wasSuccessful())
 
 
 if __name__ == "__main__":
