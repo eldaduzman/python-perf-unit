@@ -61,6 +61,7 @@ def run_single_iteration(
 
 
 def perf_unit_test_class(
+    *args,
     how_many_threads: int = 30,
     total_number_of_method_executions: int = 100,
     upper_median_threashold_in_milliseconds: int = 500,
@@ -91,7 +92,7 @@ def perf_unit_test_class(
                             )
                         )
 
-                execution_times = [future.result() for future in futures]
+                execution_times = tuple([future.result() for future in futures])
 
                 median_time = statistics.median(execution_times)
 
@@ -120,5 +121,8 @@ def perf_unit_test_class(
                 setattr(cls, attr, wrapper(original_method))
 
         return cls
+
+    if len(args) == 1:
+        return modify_test_class(args[0])
 
     return modify_test_class
