@@ -6,7 +6,16 @@
 ![](https://raw.githubusercontent.com/eldaduzman/python-perf-unit/main/docs/badges/pylint.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-`python-perf-unit` is a Python package designed to enhance unit testing with performance metrics. By integrating with Python's unittest framework, it enables the execution of test methods with performance analysis.
+
+<br/>
+
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/eldaduzman/python-perf-unit/main/docs/images/logo.png" width="70%" /></div>
+
+<br/>
+<br/>
+
+
+## `python-perf-unit` is a Python package designed to enhance unit testing with performance metrics. By integrating with Python's unittest framework, it enables the execution of test methods with performance analysis.
 
 ## Features
 
